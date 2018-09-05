@@ -1,3 +1,3 @@
 # vertx-demo
 vert.x 3 demo<br>
-vert.x 3 demo，中文文档地址：https://vertxchina.github.io/vertx-translation-chinese/
+中文开发文档地址：https://vertxchina.github.io/vertx-translation-chinese/
