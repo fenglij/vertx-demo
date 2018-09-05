@@ -10,14 +10,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(VertxUnitRunner.class)
-public class HelloWorldVerticleTest {
+public class HelloVerticleTest {
 
     private Vertx vertx;
 
     @Before
     public void setUp(TestContext context) {
         vertx = Vertx.vertx();
-        vertx.deployVerticle(HelloWorldVerticle.class.getName(), context.asyncAssertSuccess());
+        vertx.deployVerticle(HelloVerticle.class.getName(), context.asyncAssertSuccess());
     }
 
     @After
